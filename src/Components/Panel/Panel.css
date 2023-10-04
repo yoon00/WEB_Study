@@ -1,0 +1,58 @@
+.panel_numberframe {
+    position: absolute;
+    width: 700px;
+    height: 783px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 70px;
+    background-color: #fff;
+    font-size: 35px;
+    color: #fff;
+    /* font-family: var(--font-pretendard); */
+    text-align: center;
+  }
+  .panel_testimageIcon {
+    position: relative;
+    width: 292.5px;
+    height: 209px;
+    margin-top: 95px;
+    object-fit: cover;
+  }
+  .panel_title {
+    position: relative;
+    margin-top: 75px;
+    font-size: 45px;
+    color: #000;
+    width: 379px;
+    text-align: center;
+    font-family: "Pretendard-ExtraBold"
+  }
+  .panel_message {
+    position: relative;
+    margin-top: 30px;
+    font-size: 22px;
+    color: #a7a7a7;
+    width: 100%;
+    text-align: center;
+    font-family: "Pretendard-ㄴBold";
+    white-space: pre-line;
+    line-height: 30px;
+  }
+  .panel_button {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 52px;
+    border-radius: 30px;
+    background-color: #865cfe;
+    width: 523px;
+    height: 82px;
+  }
+.panel_buttontext {
+    color: #fff;
+    font-family: "Pretendard-SemiBold";
+  }
+  

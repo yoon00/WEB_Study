@@ -1,0 +1,78 @@
+.counter_counter {
+    position: absolute;
+    width: 517.04px;
+    height: 340px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .counter_leftbuttonIcon {
+    position: relative;
+    width: 44.52px;
+    height: 78.48px;
+    object-fit: cover;
+  }
+  
+  .counter_rightbuttonIcon {
+    position: relative;
+    transform: scaleX(-1);
+    width: 44.52px;
+    height: 78.48px;
+    object-fit: cover;
+  }
+  
+  .counter_counterframe {
+    position: relative;
+    width: 392px;
+    height: 280px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .counter_numberframe {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 80px;
+    background-color: #865cfe;
+    width: 279.85px;
+    height: 280px;
+  }
+  
+  .counter_number {
+    font-weight: 800;
+    text-align: center;
+    font-size: 150px;
+    color: #fff;
+    font-family: "Roboto-Bold";
+  }
+  
+  .counter_shadow {
+    position: absolute;
+    top: 49.49px;
+    left: 0;
+    width: 392.92px;
+    height: 313.94px;
+  }
+  
+  .counter_shadowChild,
+  .counter_shadowItem {
+    height: 100%;
+    width: 100%;
+  }
+  
+  .counter_shadowChild {
+    position: relative;
+    background: radial-gradient(
+      50% 50%at 50% 50%,
+      rgba(134, 92, 254, 0.64),
+      rgba(134, 92, 254, 0)
+    );
+  }
+  
+  .counter_shadowItem {
+    background-color: transparent;
+    backdrop-filter: blur(30px);
+  }
